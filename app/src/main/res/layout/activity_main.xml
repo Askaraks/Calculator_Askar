@@ -187,16 +187,18 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_zero"
+                android:onClick="onNumberClick"
                 style="@style/Gray.Dark.Button"
                 android:layout_width="178dp"
-                android:paddingEnd="0dp"
                 android:paddingStart="32dp"
-                android:textAlignment="textStart"
-                android:text="0"/>
+                android:paddingEnd="0dp"
+                android:text="0"
+                android:textAlignment="textStart" />
 
             <com.google.android.material.button.MaterialButton
                 android:text="."
                 style="@style/Gray.Dark.Button"
+                android:onClick="onNumberClick"
                 android:layout_marginHorizontal="18dp" />
 
             <com.google.android.material.button.MaterialButton
